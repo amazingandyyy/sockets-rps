@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Intro to Sockets</title>
+        <link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/socket.io-client/socket.io.js"></script>
+        <script src="/js/main.js"></script>
+    </head>
+    <body>
+        <div class="container text-center">
+            <h1>RPS game</h1>
+            <h3 id="status"><small>You are not in the game</small></h3>
+            <hr>
+            <button type="button" class="btn btn-default startGame">Join game</button>
+            <div class="buttonContainer">
+            <button type="button" class="btn btn-default btn-lg rpsButton" data-rps="scissors">
+                <i class="fa fa-hand-scissors-o" data-rps="scissors"></i>
+            </button>
+            <button type="button" class="btn btn-default btn-lg rpsButton" data-rps="rock">
+                <i class="fa fa-hand-rock-o"  data-rps="rock"></i>
+            </button>
+            <button type="button" class="btn btn-default btn-lg rpsButton" data-rps="paper">
+                <i class="fa fa-hand-paper-o" data-rps="paper"></i>
+            </button>
+        </div>
+    </body>
+</html>

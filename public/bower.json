@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "homepage": "https://github.com/amazingandyyy/codinghouse",
+  "authors": [
+    "Amazingandyyy <amazingandyyy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "socket.io-client": "^1.4.6"
+  }
+}
